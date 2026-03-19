@@ -17,7 +17,7 @@
     ```
 
 2. **Set Tokens After Login:**
-   Use `FlutterSecureTokenManager().setToken(Token(accessToken, refreshToken))` whenever there are
+   Use `FlutterSecureTokenManager().setToken(token: Token(accessToken: token, refreshToken: refreshToken))` whenever there are
    changes to tokens.
 
 3. **Implement Token Expiry Check:** If your tokens are not JWT, set the expiry check logic (usually
